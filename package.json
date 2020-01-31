@@ -1,0 +1,49 @@
+{
+    "name": "form-generator",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "test:e2e": "vue-cli-service test:e2e",
+        "fake:api": "cd tests/fake-api-jwt-json-server && npm run start-auth",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "core-js": "^3.4.4",
+        "register-service-worker": "^1.6.2",
+        "vue": "^2.6.10",
+        "vue-eva-icons": "^1.1.1",
+        "vue-feather-icons": "^5.0.0",
+        "vue-form-generator": "^2.3.4",
+        "vue-notification": "^1.3.20",
+        "vue-router": "^3.1.3",
+        "vuex": "^3.1.2",
+        "vuex-persistedstate": "^2.7.0"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.0.5",
+        "@vue/cli-plugin-babel": "^4.1.0",
+        "@vue/cli-plugin-e2e-cypress": "^4.1.0",
+        "@vue/cli-plugin-eslint": "^4.1.0",
+        "@vue/cli-plugin-pwa": "^4.1.0",
+        "@vue/cli-plugin-router": "^4.1.0",
+        "@vue/cli-plugin-vuex": "^4.1.0",
+        "@vue/cli-service": "^4.1.0",
+        "@vue/eslint-config-prettier": "^5.0.0",
+        "autoprefixer": "^9.7.4",
+        "babel-eslint": "^10.0.3",
+        "eslint": "^5.16.0",
+        "eslint-plugin-prettier": "^3.1.1",
+        "eslint-plugin-vue": "^5.0.0",
+        "node-sass": "^4.12.0",
+        "postcss-custom-properties": "^9.0.2",
+        "postcss-import": "^12.0.1",
+        "postcss-nesting": "^7.0.1",
+        "prettier": "^1.19.1",
+        "sass-loader": "^8.0.0",
+        "tailwindcss": "^1.1.4",
+        "vue-template-compiler": "^2.6.10"
+    }
+}
